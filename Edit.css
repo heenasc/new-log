@@ -1,0 +1,25 @@
+/* Custom styles for the Select elements */
+.custom-select {
+  background-color: #f2f2f2; /* Background color */
+  color: #333; /* Text color */
+  border: 1px solid #ccc; /* Border color */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Custom styles for the buttons */
+.custom-button {
+  background-color: #0077b6; /* Background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+}
+
+.custom-button:hover {
+  background-color: #005f91; /* Background color on hover */
+}
+
