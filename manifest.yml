@@ -1,7 +1,7 @@
 modules:
   jira:dashboardGadget:
-    - key: report-hello-world-gadget
-      title: report
+    - key: logreport-app-hello-world-gadget
+      title: LOGREPORT-APP
       description: A hello world dashboard gadget.
       thumbnail: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
       resource: main
@@ -15,8 +15,6 @@ modules:
 resources:
   - key: main
     path: static/hello-world/build
-    tunnel:
-      port: 3000
 permissions:
   external:
     images:
@@ -28,9 +26,9 @@ permissions:
     - 'read:application-role:jira'   
     - 'read:group:jira'              
     - 'read:user:jira'               
-    - 'read:avatar:jira'  
+    - 'read:avatar:jira'   
   content:
     styles:
       - unsafe-inline
 app:
-  id: ari:cloud:ecosystem::app/ecbb973a-9329-41a8-8ef4-b72935c53dec
+  id: ari:cloud:ecosystem::app/3c224a1a-963f-4ea3-8d47-cfdf4a111677
